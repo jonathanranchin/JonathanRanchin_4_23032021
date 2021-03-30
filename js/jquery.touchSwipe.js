@@ -15,7 +15,6 @@
     "function" == typeof define && define.amd && define.amd.jQuery ? define(["jquery"], factory) : factory("undefined" != typeof module && module.exports ? require("jquery") : jQuery)
 }(function($) {
     "use strict";
-
     function init(options) {
         return !options || void 0 !== options.allowPageScroll || void 0 === options.swipe && void 0 === options.swipeStatus || (options.allowPageScroll = NONE), void 0 !== options.click && void 0 === options.tap && (options.tap = options.click), options || (options = {}), options = $.extend({}, $.fn.swipe.defaults, options), this.each(function() {
             var $this = $(this),
@@ -23,7 +22,6 @@
             plugin || (plugin = new TouchSwipe(this, options), $this.data(PLUGIN_NS, plugin))
         })
     }
-
     function TouchSwipe(element, options) {
         function touchStart(jqEvent) {
             if (!(getTouchInProgress() || $(jqEvent.target).closest(options.excludedElements, $element).length > 0)) {
