@@ -99,8 +99,9 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
+.d-bloc div{
+    color: #000000;
+    font-size: 15px;
 }
 
 .d-bloc button:hover {
@@ -639,9 +640,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
-h3,
 h4,
 h5,
 h6,
@@ -651,7 +649,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .container {
@@ -722,10 +719,19 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
+h1,
+h2 {
+    color: hsl(0, 100%, 100%);
 }
-
+li a {
+    color: #000000;
+}
+p {
+    color: #000000;
+}
+label {
+    color: #000000;
+}
 h4 {
     color: #333333!important;
 }
@@ -775,7 +781,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white;
+    font-weight: 800;
 }
 
 .btn-atomic-tangerine {
