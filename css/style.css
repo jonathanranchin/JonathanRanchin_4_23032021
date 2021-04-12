@@ -95,6 +95,7 @@ a:hover {
 .texture-paper::before {
     background: url("../img/texture-paper.png");
     background-size: 280px 280px;
+    z-index: 1;
 }
 
 .b-parallax {
@@ -104,6 +105,7 @@ a:hover {
 .d-bloc div{
     color: #000000;
     font-size: 15px;
+    z-index: 1000;
 }
 
 .d-bloc button:hover {
@@ -761,7 +763,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #F3976C;
+    background-color: #ee7035;
     padding: 40px 40px 40px 40px;
 }
 
@@ -785,6 +787,9 @@ h4 {
 .tc-white {
     color: white;
     font-weight: 800;
+    z-index: 1001;
+    background-image: none;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
