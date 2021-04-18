@@ -17,6 +17,7 @@ button {
 img {
     max-width: 100%;
 }
+.i
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -753,6 +754,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: inherit;
+    height: inherit;
 }
 
 .portfolio-row {
