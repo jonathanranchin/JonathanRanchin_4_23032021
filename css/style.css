@@ -16,8 +16,8 @@ button {
 }
 img {
     max-width: 100%;
-    width:auto;
-    height: auto;
+    width:max-content;
+    height: max-content;
 }
 .i
 a:hover {
