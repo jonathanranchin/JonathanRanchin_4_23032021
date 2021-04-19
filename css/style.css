@@ -1,3 +1,5 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css) screen;
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css) screen;
 body {
     margin: 0;
     padding: 0;
@@ -6,7 +8,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -17,7 +18,10 @@ img {
     width:max-content;
     height: max-content;
 }
-.i
+.img-logo {
+    width: 100px;
+    height: 100px;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -310,7 +314,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    max-height: 40px;
+    max-width: 220px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -1059,5 +1064,3 @@ h4 {
         text-align: center;
     }
 }
-@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css) screen;
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css) screen;
