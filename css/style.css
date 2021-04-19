@@ -312,8 +312,8 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 40px;
-    max-width: 220px;
+    height: 40px;
+    width: 220px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -733,6 +733,10 @@ h1,
 h2 {
     color: hsl(0, 100%, 100%);
 }
+.h2-black {
+    color: black;
+    font-weight: 400;
+}
 li a {
     color: #000000;
 }
@@ -846,7 +850,9 @@ h4 {
 .bg-presentation {
     background-image: url("../img/image-de-presentation.webp");
 }
-
+#better-background {
+    color: #1E1E1E;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
